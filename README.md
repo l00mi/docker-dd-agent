@@ -167,7 +167,7 @@ docker run  --name my_container           \
             my_image
 ```
 
-DogStatsD address and port will be available in `my_container`'s environment variables `DOGSTATSD_PORT_8125_UDP_ADDR` and `DOGSTATSD_PORT_8125_UDP_PORT`.
+DogStatsD address and port will be available in `my_container`'s environment variables `DOGSTATSD_PORT_8125_UDP_ADDR` and `DOGSTATSD_PORT_8125_UDP_PORT`. Note: This is a depreciated feature in docker and is not supported by _docker-compose_ files of version 2 and upwards.
 
 #### Using Docker host IP
 
